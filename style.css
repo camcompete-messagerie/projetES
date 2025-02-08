@@ -1,0 +1,90 @@
+html, body, head {
+	padding:0;
+	margin:0;
+	border:none;
+	font-family: Arial;
+	overflow-x:hidden;
+}
+
+#retour {
+	border: solid #0e0e21; 
+	position: absolute; 
+	right: 0%; 
+	top: 1%; 
+	width: 100px; 
+	height: 75px; 
+	font-size: larger;
+}
+
+body {
+	background-size:cover;
+	width:100%;
+	height:100%;
+	display: inline-block;
+}
+
+button {
+	background-color: #0e0e21;
+	color: #fff;
+	border: solid 1px #0e0e21;
+	width: 100px;
+	height: 75ps;
+	font-size: larger;
+	text-align: left;
+}
+
+.header {
+	background-color: #0e0e21;
+	width:100%;
+	min-width:50px;
+	color:#e4e4ed;
+	padding:1px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.section {
+	width:100%;
+	height: auto;
+	padding:5px;
+	background-color:#ffffff;
+	margin-top:700px;
+}
+
+a {text-decoration:none;
+	color:#fff;}
+
+#scrollenbasla {
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:20px;
+	left: calc(50% - 25px);
+	animation: boutonstyle 2s infinite;
+}
+
+@keyframes boutonstyle {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}}
+
+
+.hidden {
+	display: none;
+}
+
+footer {
+	position: absolute;
+	bottom: 0%;
+	background-color: #0e0e21;
+	color:#e4e4ed;
+	width: 100%;
+	text-align: center;
+}

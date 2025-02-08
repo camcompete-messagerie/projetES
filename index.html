@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+        <style>
+            #corps1, #corps2, #corps3 {
+                width: calc(33% - 50px);
+                height: calc(40% - 50px);
+                margin: 0 25px;
+                position: absolute;
+                top: 250px;   
+            }
+
+            body {
+				background-image: url("https://www.forbes.fr/wp-content/uploads/2022/08/gettyimages-1347310666.jpg.webp");
+				background-attachment:fixed;
+				background-repeat: no-repeat;
+			}
+        </style>
+        </head>
+	<body>
+        <div class="header" id="header"><h1>ORDINATEURS QUANTIQUES</h1></div>
+        <div id="corps1" onclick="premierePage()">
+		    <iframe src="Première page.html" id="iframepage1" style="pointer-events: none; width: 100%; height: 100%;"></iframe>
+        </div>
+        <div id="corps2" style="left: 500px;" onclick="deuxiemePage()">
+            <iframe src="Deuxieme page.html" id="iframepage2" style="pointer-events: none; width: 100%; height: 100%;"></iframe>
+        </div>
+        <div id="corps3" style="left: 1000px;" onclick="troisiemePage()">
+            <iframe src="Troisieme page.html" id="iframepage3" style="pointer-events: none; width: 100%; height: 100%;"></iframe>
+        </div>
+		<footer>code by THEvenger and Paul</footer>
+	</body>
+	<script src="script.js"></script>
+</html>
